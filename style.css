@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 43, 54);
+    
+}
+#main #panda{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-FWO3-tKo09hD4MYPap_orrnHeOgkj5k7MrKR7o55Q&s=10);
+    background-position: center;
+    background-size: cover;
+   
+}
+#main #kumfu{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: rgb(150, 163, 163);
+   
+   
+}
+#kumfu #the{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    /* background-color: blue; */
+}
+#the h1{
+    top: 50%;
+    left: 50%;
+    color: rgb(45, 89, 99);
+
+}
+#the p{
+    top: 50%;
+    left: 50%;
+}
+#the button{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    color: rgb(45, 89, 99);
+    border-radius: 20px;
+    background-color: rgb(150, 163, 163);
+    border: 3px solid rgb(45, 89, 99);
+
+}
